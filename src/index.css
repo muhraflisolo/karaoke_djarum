@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Spot Normal';
+  src: url('/public/fonts/Spot-Normal.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Futura Display';
+  src: url('/public/fonts/Futura-Display.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Spot Normal', sans-serif !important;
+}
+.button {
+  cursor: pointer;
+  position: absolute;
+  left: 58px;
+  bottom: 55px;
+}

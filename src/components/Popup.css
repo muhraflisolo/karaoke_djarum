@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Futura Display';
+  src: url('/public/fonts/Futura-Display.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url('/public/img/skor.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 800px; /* Adjust width as needed */
+  height: 448px; /* Adjust height as needed */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.point {
+  font-size: 100px;
+  margin-top: 140px;
+  font-family: 'Futura Display', sans-serif !important;
+}
